@@ -1,0 +1,2 @@
+# 04B1711200290000011B
+KERNEL=="sd?1", SUBSYSTEM=="block", ATTRS{serial}=="[[HARD_SERIAL]]", RUN{program}+="[[BACKUP_SCRIPT]]"
